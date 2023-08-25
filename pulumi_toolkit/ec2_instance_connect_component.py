@@ -1,5 +1,5 @@
 import pulumi
-from pulumi import ComponentResource, Input, Output
+from pulumi import ComponentResource
 from pulumi_aws import ec2, iam
 
 class EC2InstanceConnect(ComponentResource):

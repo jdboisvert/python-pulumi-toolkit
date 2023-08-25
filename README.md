@@ -1,28 +1,9 @@
 # python-pulumi-toolkit
 A collection of Pulumi resources wrapped in a portable and reusable SDK. 
 
-## Set up
-1. Install [Pulumi](https://www.pulumi.com/docs/get-started/install/)
-2. Install [Python 3.9+](https://www.python.org/downloads/)
 
-### Virtual env using pyenv
-```shell
-# install pyenv (if necessary)
-brew install pyenv pyenv-virtualenv
-echo """
-export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-""" > ~/.zshrc
-source ~/.zshrc
+## Features
+Please refer to the [docs](docs/features.md) for a list of features and examples on how to use.
 
-# create a virtualenv
-pyenv install 3.11.0
-pyenv virtualenv 3.11.0 python_pulumi_toolkit
-pyenv activate python_pulumi_toolkit
-
-# install dependencies
-pip install -U pip
-pip install -r requirements.txt
-```
+## Development set up
+Please refer to the [docs](docs/development.md) for how to set up your development environment. However please note I am not planning on publishing this to PyPi so you will need to install this from GitHub for now and don't plan to have people contribute (but if you want to feel free to open a PR and use this as you want).
