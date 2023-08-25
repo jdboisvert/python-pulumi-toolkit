@@ -1,0 +1,4 @@
+config:
+  aws:region: ca-central-1
+  pulumi-playground:instanceType: t2.micro
+  pulumi-playground:amiId: ami-0ea18256de20ecdfc

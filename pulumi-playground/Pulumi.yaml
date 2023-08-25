@@ -1,0 +1,4 @@
+name: pulumi-playground
+runtime:
+  name: python
+description: A pulumi project used as a playground for testing.
